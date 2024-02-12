@@ -1,16 +1,16 @@
-import { useSelector } from 'react-redux';
 import Login from './Login'
 import Register from './Register';
+import { useContext } from 'react';
+import ToggleContext from '../../context/signup/ToggleContext';
 
 
 const SignUp = () => {
     
-  const isRegPg = useSelector((state) => state.regToggle.isRegPg)
-  
+  const {regPg} = useContext(ToggleContext);
   
   return (
     <>
-      {isRegPg?<Register/>:<Login/>}
+      {regPg?<Register/>:<Login/>}
     </>  
   )
 }

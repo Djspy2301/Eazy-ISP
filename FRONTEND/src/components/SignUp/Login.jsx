@@ -1,33 +1,39 @@
+import { useContext, useState } from "react";
 import Input from "../Input/Input";
-import { useDispatch, useSelector } from "react-redux";
-import { togglePg } from "../../store/slices/signUp/regToggleSlice";
-import { setUsername, setPassword } from "../../store/slices/signUp/loginSlice";
+import ToggleContext from "../../context/signup/ToggleContext";
 
 const Login = () => {
-  const dispatch = useDispatch();
-  const { username, password } = useSelector((state) => state.login);
-  
-  const handleUsernameChange = (e) => {
-    dispatch(setUsername(e.target.value));
-  };
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const {setRegPg} = useContext(ToggleContext);
 
-  const handlePasswordChange = (e) => dispatch(setPassword(e.target.value));
+  const handleUsernameChange = (e) => setUsername(e.target.value);
 
-  const toggleLogPg = () => dispatch(togglePg());
-  // console.log("Username:", username);
-  // console.log("Password:", password);
+  const handlePasswordChange = (e) => setPassword(e.target.value);
+
+  const toggleLogPg = () => setRegPg(true);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const formValue = {username, password}
+    setPassword('');
+    setUsername('');
+    console.log(formValue)
+
+  }
+
   return (
     <div className="bg-gray-200 flex items-center justify-center h-screen">
       <div className="bg-white p-8 rounded shadow-md w-96">
         <h2 className="text-2xl font-semibold mb-6">Login</h2>
 
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <Input
               label="Username"
               type="text"
-              input={username}
-              inputChange={handleUsernameChange}
+              value = {username}
+              onChange = {handleUsernameChange}
             />
           </div>
 
@@ -35,8 +41,8 @@ const Login = () => {
             <Input
               label="Password"
               type="password"
-              input={password}
-              inputChange={handlePasswordChange}
+              value = {password}
+              onChange = {handlePasswordChange}
             />
           </div>
 

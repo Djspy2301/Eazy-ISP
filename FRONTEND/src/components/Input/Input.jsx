@@ -1,6 +1,6 @@
 import React from "react";
 
-const Input = ({label, type, input, inputChange}) => {
+const Input = ({label, type, value, onChange}) => {
     
   return (
     <>
@@ -17,8 +17,8 @@ const Input = ({label, type, input, inputChange}) => {
         name={label}
         className="border rounded w-full py-2 px-3"
         placeholder={`Enter your ${label}`}
-        value={input}
-        onChange={inputChange}
+        value={value}
+        onChange={onChange}
         required
       />
     </>

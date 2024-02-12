@@ -1,13 +1,11 @@
-import { useState } from "react";
 import { SignUp } from "./components";
-import { Provider } from "react-redux";
-import { store } from "./store/Store";
+import ToggleContextProvider from "./context/signup/ToggleContextProvider";
 
 function App() {
   return (
-    <Provider store={store}>
+    <ToggleContextProvider>
       <SignUp />
-    </Provider>
+    </ToggleContextProvider>
   );
 }
 

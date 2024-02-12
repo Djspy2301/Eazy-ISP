@@ -1,57 +1,49 @@
-import { useDispatch, useSelector } from "react-redux";
-import { togglePg } from "../../store/slices/signUp/regToggleSlice";
-import {
-  setBrand,
-  setName,
-  setUsername,
-  setEmail,
-  setPhone,
-  setPassword,
-  setCPassword,
-} from "../../store/slices/signUp/registerSlice";
 import Input from "../Input/Input";
+import { useContext, useState } from "react";
+import ToggleContext from "../../context/signup/ToggleContext";
 
 const Register = () => {
-  const dispatch = useDispatch();
+  const [brand, setBrand] = useState('');
+  const [username, setUsername] = useState('');
+  const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [cpassword, setCPassword] = useState('');
+  const {setRegPg} = useContext(ToggleContext);
+  const handleBrandChange = (e) => setBrand(e.target.value);
 
-  const { brand, name, username, email, phone, password, cpassword } =
-    useSelector((state) => state.register);
+  const handleNameChange = (e) => setName(e.target.value);
 
-  const handleBrandChange = (e) => dispatch(setBrand(e.target.value));
+  const handleUsernameChange = (e) => setUsername(e.target.value);
 
-  const handleNameChange = (e) => dispatch(setName(e.target.value))
+  const handleEmailChange = (e) => setEmail(e.target.value);
 
-  const handleUsernameChange = (e) => dispatch(setUsername(e.target.value));
+  const handlePhoneChange = (e) => setPhone(e.target.value);
 
-  const handleEmailChange = (e) => dispatch(setEmail(e.target.value))
+  const handlePasswordChange = (e) => setPassword(e.target.value);
 
-  const handlePhoneChange = (e) => dispatch(setPhone(e.target.value));
+  const handleCPasswordChange = (e) => setCPassword(e.target.value);
+  const toggleRegPg = () => setRegPg(false);
 
-  const handlePasswordChange = (e) => dispatch(setPassword(e.target.value))
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const formValue = {brand, username, name, phone, email, password}
+    console.log(formValue);
+  }
 
-  const handleCPasswordChange = (e) => dispatch(setCPassword(e.target.value));
-
-  const toggleRegPg = () => dispatch(togglePg())
-
-  // console.log("Brand Name:", brand);
-  // console.log("Name:", name);
-  // console.log("Username:", username);
-  // console.log("Email:", email);
-  // console.log("Phone:", phone);
-  // console.log("Password:", password);
-  // console.log("Confirm Password:", cpassword);
   return (
     <div className="bg-gray-200 flex items-center justify-center h-screen">
       <div className="bg-white p-8 rounded shadow-md w-96">
         <h2 className="text-2xl font-semibold mb-6">Register</h2>
 
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <Input
               label="Brand Name"
               type="text"
-              input={brand}
-              inputChange={handleBrandChange}
+              value={brand}
+              onChange={handleBrandChange}
             />
           </div>
 
@@ -59,8 +51,8 @@ const Register = () => {
             <Input
               label="Name"
               type="text"
-              input={name}
-              inputChange={handleNameChange}
+              value={name}
+              onChange={handleNameChange}
             />
           </div>
 
@@ -68,8 +60,8 @@ const Register = () => {
             <Input
               label="Username"
               type="text"
-              input={username}
-              inputChange={handleUsernameChange}
+              value={username}
+              onChange={handleUsernameChange}
             />
           </div>
 
@@ -77,8 +69,8 @@ const Register = () => {
             <Input
               label="Email"
               type="email"
-              input={email}
-              inputChange={handleEmailChange}
+              value={email}
+              onChange={handleEmailChange}
             />
           </div>
 
@@ -86,8 +78,8 @@ const Register = () => {
             <Input
               label="Phone"
               type="text"
-              input={phone}
-              inputChange={handlePhoneChange}
+              value={phone}
+              onChange={handlePhoneChange}
             />
           </div>
 
@@ -95,8 +87,8 @@ const Register = () => {
             <Input
               label="Password"
               type="password"
-              input={password}
-              inputChange={handlePasswordChange}
+              value={password}
+              onChange={handlePasswordChange}
             />
           </div>
 
@@ -104,8 +96,8 @@ const Register = () => {
             <Input
               label="Confirm Password"
               type="password"
-              input={cpassword}
-              inputChange={handleCPasswordChange}
+              value={cpassword}
+              onChange={handleCPasswordChange}
             />
           </div>
 
