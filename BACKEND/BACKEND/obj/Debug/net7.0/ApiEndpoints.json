@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "BACKEND.Controllers.AuthController",
+    "Method": "GetAll",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BACKEND.Controllers.AuthController",
+    "Method": "Create",
+    "RelativePath": "api/Auth/Reg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isp",
+        "Type": "BACKEND.Models.ISPModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

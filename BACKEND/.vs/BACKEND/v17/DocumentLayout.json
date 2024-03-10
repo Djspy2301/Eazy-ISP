@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\container\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\container\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\helper\\apiresponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\helper\\apiresponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\models\\ispmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\models\\ispmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Services\\IAuthService.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Services\\IAuthService.cs",
+              "RelativeToolTip": "BACKEND\\Services\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T07:33:28.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "APIResponses.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Helper\\APIResponses.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Helper\\APIResponses.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Helper\\APIResponses.cs",
+              "RelativeToolTip": "BACKEND\\Helper\\APIResponses.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T07:28:49.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Container\\AuthService.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Container\\AuthService.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Container\\AuthService.cs",
+              "RelativeToolTip": "BACKEND\\Container\\AuthService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T16:49:17.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Data\\DataContext.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Data\\DataContext.cs",
+              "RelativeToolTip": "BACKEND\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:34:15.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Program.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Program.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Program.cs",
+              "RelativeToolTip": "BACKEND\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:25:10.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BACKEND\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:17:25.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISPModel.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Models\\ISPModel.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Models\\ISPModel.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Models\\ISPModel.cs",
+              "RelativeToolTip": "BACKEND\\Models\\ISPModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:08:31.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

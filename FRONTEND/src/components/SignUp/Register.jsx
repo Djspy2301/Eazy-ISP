@@ -1,6 +1,8 @@
 import Input from "../Input/Input";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import ToggleContext from "../../context/signup/ToggleContext";
+import axios from "axios";
+
 
 const Register = () => {
   const [brand, setBrand] = useState('');
@@ -11,6 +13,8 @@ const Register = () => {
   const [password, setPassword] = useState('');
   const [cpassword, setCPassword] = useState('');
   const {setRegPg} = useContext(ToggleContext);
+  let formValue={};
+  
   const handleBrandChange = (e) => setBrand(e.target.value);
 
   const handleNameChange = (e) => setName(e.target.value);
@@ -24,13 +28,26 @@ const Register = () => {
   const handlePasswordChange = (e) => setPassword(e.target.value);
 
   const handleCPasswordChange = (e) => setCPassword(e.target.value);
-  const toggleRegPg = () => setRegPg(false);
 
+  const toggleRegPg = () => setRegPg(false);
   const handleSubmit = (e) => {
     e.preventDefault();
-    const formValue = {brand, username, name, phone, email, password}
-    console.log(formValue);
-  }
+    let id = Date.now();
+    formValue = {id, brand, username, name, email, phone, password}
+    console.log("formvalue:",formValue);
+
+    ;(async() => {
+      try {
+        const res = await axios.post('https://localhost:7026/api/Auth/', formValue);
+        console.log(res);
+      } catch (error) {
+        console.log(error.message);
+      }
+
+    })()
+
+  };
+  
 
   return (
     <div className="bg-gray-200 flex items-center justify-center h-screen">

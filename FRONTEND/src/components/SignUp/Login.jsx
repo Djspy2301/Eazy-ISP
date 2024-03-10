@@ -1,14 +1,17 @@
 import { useContext, useState } from "react";
 import Input from "../Input/Input";
 import ToggleContext from "../../context/signup/ToggleContext";
+import Validations from "../../hooks/Validations";
 
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  
   const {setRegPg} = useContext(ToggleContext);
 
-  const handleUsernameChange = (e) => setUsername(e.target.value);
+  const [errors, setErrors]=useState({})
 
+  const handleUsernameChange = (e) => setUsername(e.target.value);
   const handlePasswordChange = (e) => setPassword(e.target.value);
 
   const toggleLogPg = () => setRegPg(true);
@@ -16,8 +19,9 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const formValue = {username, password}
-    setPassword('');
+    // Validations(values);
     setUsername('');
+    setPassword('');
     console.log(formValue)
 
   }
