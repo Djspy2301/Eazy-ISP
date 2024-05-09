@@ -1,10 +1,9 @@
 import Input from "../Input/Input";
 import { useContext, useEffect, useState } from "react";
-import ToggleContext from "../../context/signup/ToggleContext";
 import axios from "axios";
 
 
-const Register = () => {
+const Register = ({toggleMode}) => {
   const [brand, setBrand] = useState('');
   const [username, setUsername] = useState('');
   const [name, setName] = useState('');
@@ -12,7 +11,7 @@ const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [cpassword, setCPassword] = useState('');
-  const {setRegPg} = useContext(ToggleContext);
+
   let formValue={};
   
   const handleBrandChange = (e) => setBrand(e.target.value);
@@ -29,17 +28,18 @@ const Register = () => {
 
   const handleCPasswordChange = (e) => setCPassword(e.target.value);
 
-  const toggleRegPg = () => setRegPg(false);
   const handleSubmit = (e) => {
     e.preventDefault();
     let id = Date.now();
-    formValue = {id, brand, username, name, email, phone, password}
-    console.log("formvalue:",formValue);
+    let isAdmin = true;
+    formValue = {id, brand, username, name, email, phone, password, isAdmin}
+    //console.log("formvalue:",formValue);
 
     ;(async() => {
       try {
         const res = await axios.post('https://localhost:7026/api/Auth/', formValue);
-        console.log(res);
+        toggleMode()
+        //console.log(res);
       } catch (error) {
         console.log(error.message);
       }
@@ -128,7 +128,7 @@ const Register = () => {
 
         <p className="mt-4 text-sm text-gray-600">
           Already have an account?{" "}
-          <a href="#" className="text-blue-500" onClick={toggleRegPg}>
+          <a href="#" className="text-blue-500" onClick={toggleMode}>
             Login here
           </a>
           .

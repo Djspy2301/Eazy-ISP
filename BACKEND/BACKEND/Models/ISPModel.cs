@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BACKEND.Helper;
+using System.ComponentModel.DataAnnotations;
 
 namespace BACKEND.Models
 {
@@ -24,5 +25,6 @@ namespace BACKEND.Models
         [MinLength(6)]
         public string? Password { get; set; }
 
+        public bool IsAdmin { get; set; }
     }
 }

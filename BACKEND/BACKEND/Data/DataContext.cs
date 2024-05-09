@@ -14,4 +14,6 @@ public class DataContext : DbContext
     }
 
     public DbSet<ISPModel> Isps => Set<ISPModel>();
+    public DbSet<MemberModel> Members => Set<MemberModel>();
+    public DbSet<PlanModel> Plan => Set<PlanModel>();
 }

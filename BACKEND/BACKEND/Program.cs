@@ -9,10 +9,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IAuthService, AuthService>();
+builder.Services.AddTransient<IProfileService, ProfileService>();
+builder.Services.AddTransient<IMemberService, MemberService>();
+builder.Services.AddTransient<IPlanService, PlanService>();
 builder.Services.AddDbContext<DataContext>(o =>
     o.UseNpgsql(
         builder
@@ -46,6 +52,8 @@ app.UseCors();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllers();
 

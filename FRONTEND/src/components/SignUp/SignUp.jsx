@@ -1,16 +1,20 @@
 import Login from './Login'
 import Register from './Register';
-import { useContext } from 'react';
-import ToggleContext from '../../context/signup/ToggleContext';
+import { useContext, useState } from 'react';
+
 
 
 const SignUp = () => {
-    
-  const {regPg} = useContext(ToggleContext);
+   
+  const [isReg, setIsReg]=useState(false);
+
+  const toggleMode = () =>{
+    setIsReg(!isReg);
+  }
   
   return (
     <>
-      {regPg?<Register/>:<Login/>}
+      {isReg?<Register toggleMode={toggleMode}/>:<Login toggleMode={toggleMode}/>}
     </>  
   )
 }

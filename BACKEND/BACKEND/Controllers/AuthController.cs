@@ -29,5 +29,20 @@ namespace BACKEND.Controllers
             
             return Ok(res);
         }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> GetLog(Login request)
+        {
+            var res = await service.Login(request.Username, request.Password);
+
+            if(res.Success)
+            {
+                return Ok(res);
+            }
+            else
+            {
+                return BadRequest(res);
+            }
+        }
     }
 }
