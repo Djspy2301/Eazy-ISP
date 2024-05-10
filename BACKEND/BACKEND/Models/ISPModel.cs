@@ -25,6 +25,7 @@ namespace BACKEND.Models
         [MinLength(6)]
         public string? Password { get; set; }
 
+        [Required]
         public bool IsAdmin { get; set; }
     }
 }

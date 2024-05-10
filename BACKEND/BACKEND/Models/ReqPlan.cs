@@ -2,7 +2,7 @@
 
 namespace BACKEND.Models
 {
-    public class PlanModel
+    public class ReqPlan
     {
         [Key]
         public long? Id { get; set; }
@@ -14,7 +14,7 @@ namespace BACKEND.Models
         [MaxLength(100)]
         public string? Description { get; set; }
         [Required]
-        public int Due {  get; set; }
+        public int Due { get; set; }
 
         [Required]
         public string? Speed { get; set; }

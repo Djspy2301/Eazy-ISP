@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\models\\planmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\models\\planmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\services\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\services\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\models\\reqplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\models\\reqplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\models\\planmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\models\\planmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\services\\iplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\services\\iplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\container\\planservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\container\\planservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Migrations\\20240509210157_IspModel_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BACKEND\\Migrations\\20240509210157_IspModel_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\models\\ispmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\models\\ispmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\container\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\container\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\container\\planservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\container\\planservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Migrations\\20240506012942_Plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,14 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\models\\ispmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|solutionrelative:backend\\models\\ispmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{962EB4B4-CA57-4AB6-B7B3-B92CFA2532B5}|BACKEND\\BACKEND.csproj|e:\\future\\projects\\visualstudio\\desktopapps\\ez-isp\\backend\\backend\\container\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,31 +110,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "BACKEND\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "BACKEND\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T01:48:00.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240506012942_Plan.cs",
-              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Migrations\\20240506012942_Plan.cs",
-              "RelativeDocumentMoniker": "BACKEND\\Migrations\\20240506012942_Plan.cs",
-              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Migrations\\20240506012942_Plan.cs",
-              "RelativeToolTip": "BACKEND\\Migrations\\20240506012942_Plan.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T01:29:43.036Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReqPlan.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Models\\ReqPlan.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Models\\ReqPlan.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Models\\ReqPlan.cs",
+              "RelativeToolTip": "BACKEND\\Models\\ReqPlan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T22:15:05.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Services\\INotificationService.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Services\\INotificationService.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Services\\INotificationService.cs",
+              "RelativeToolTip": "BACKEND\\Services\\INotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T22:08:39.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240509210157_IspModel_updated.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Migrations\\20240509210157_IspModel_updated.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Migrations\\20240509210157_IspModel_updated.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Migrations\\20240509210157_IspModel_updated.cs",
+              "RelativeToolTip": "BACKEND\\Migrations\\20240509210157_IspModel_updated.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T21:01:58.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PlanController.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Controllers\\PlanController.cs",
               "RelativeDocumentMoniker": "BACKEND\\Controllers\\PlanController.cs",
@@ -134,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "PlanService.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Container\\PlanService.cs",
               "RelativeDocumentMoniker": "BACKEND\\Container\\PlanService.cs",
@@ -146,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IPlanService.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Services\\IPlanService.cs",
               "RelativeDocumentMoniker": "BACKEND\\Services\\IPlanService.cs",
@@ -154,60 +181,64 @@
               "RelativeToolTip": "BACKEND\\Services\\IPlanService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T00:47:48.649Z"
+              "WhenOpened": "2024-05-06T00:47:48.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlanModel.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Models\\PlanModel.cs",
               "RelativeDocumentMoniker": "BACKEND\\Models\\PlanModel.cs",
               "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Models\\PlanModel.cs",
               "RelativeToolTip": "BACKEND\\Models\\PlanModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T00:41:12.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "BACKEND\\Services\\IAuthService.cs",
               "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Services\\IAuthService.cs",
               "RelativeToolTip": "BACKEND\\Services\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T07:33:28.909Z"
+              "WhenOpened": "2024-03-09T07:33:28.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "ISPModel.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Models\\ISPModel.cs",
               "RelativeDocumentMoniker": "BACKEND\\Models\\ISPModel.cs",
               "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Models\\ISPModel.cs",
               "RelativeToolTip": "BACKEND\\Models\\ISPModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T15:08:31.271Z"
+              "WhenOpened": "2024-03-08T15:08:31.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "IMemberService.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Services\\IMemberService.cs",
               "RelativeDocumentMoniker": "BACKEND\\Services\\IMemberService.cs",
               "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Services\\IMemberService.cs",
               "RelativeToolTip": "BACKEND\\Services\\IMemberService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T17:14:10.61Z"
+              "WhenOpened": "2024-05-03T17:14:10.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "MemberController.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Controllers\\MemberController.cs",
               "RelativeDocumentMoniker": "BACKEND\\Controllers\\MemberController.cs",
@@ -219,19 +250,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AuthService.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Container\\AuthService.cs",
               "RelativeDocumentMoniker": "BACKEND\\Container\\AuthService.cs",
               "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Container\\AuthService.cs",
               "RelativeToolTip": "BACKEND\\Container\\AuthService.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAwwDsAAABeAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T16:49:17.912Z"
+              "WhenOpened": "2024-03-08T16:49:17.912Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BACKEND\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T01:48:00.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240506012942_Plan.cs",
+              "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Migrations\\20240506012942_Plan.cs",
+              "RelativeDocumentMoniker": "BACKEND\\Migrations\\20240506012942_Plan.cs",
+              "ToolTip": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Migrations\\20240506012942_Plan.cs",
+              "RelativeToolTip": "BACKEND\\Migrations\\20240506012942_Plan.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T01:29:43.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "BACKEND\\Controllers\\ProfileController.cs",
@@ -243,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "DataContext.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "BACKEND\\Data\\DataContext.cs",
@@ -255,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "APIResponses.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Helper\\APIResponses.cs",
               "RelativeDocumentMoniker": "BACKEND\\Helper\\APIResponses.cs",
@@ -267,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "MemberModel.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Models\\MemberModel.cs",
               "RelativeDocumentMoniker": "BACKEND\\Models\\MemberModel.cs",
@@ -279,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "IProfileService.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Services\\IProfileService.cs",
               "RelativeDocumentMoniker": "BACKEND\\Services\\IProfileService.cs",
@@ -291,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "ProfileService.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Container\\ProfileService.cs",
               "RelativeDocumentMoniker": "BACKEND\\Container\\ProfileService.cs",
@@ -303,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "MemberService.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Container\\MemberService.cs",
               "RelativeDocumentMoniker": "BACKEND\\Container\\MemberService.cs",
@@ -315,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Login.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Models\\Login.cs",
               "RelativeDocumentMoniker": "BACKEND\\Models\\Login.cs",
@@ -327,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "20240504022248_IspAndMemberUpdate.cs",
               "DocumentMoniker": "E:\\Future\\projects\\VISUALSTUDIO\\desktopApps\\Ez-ISP\\BACKEND\\BACKEND\\Migrations\\20240504022248_IspAndMemberUpdate.cs",
               "RelativeDocumentMoniker": "BACKEND\\Migrations\\20240504022248_IspAndMemberUpdate.cs",

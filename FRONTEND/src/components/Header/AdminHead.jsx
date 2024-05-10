@@ -33,7 +33,7 @@ const Header = () => {
             Add Plans
           </NavLink>
           <NavLink
-            to="/admin/issues"
+            to="/admin/complaints"
             className={({isActive})=>
             `text-white hover:text-green-300 ${isActive?"text-red-300" : "text-white"} transition-colors duration-300`}
           >

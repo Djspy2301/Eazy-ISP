@@ -12,6 +12,7 @@ import ReportIssue from "./components/Report/ReportIssue.jsx";
 import Subscribers from "./components/Sub/Subscribers.jsx";
 import AddMember from "./components/Sub/AddMember.jsx";
 import AddPlan from "./components/Plan/AddPlan.jsx";
+import Complaint from "./components/Complaints/Complaint.jsx";
 
 const router = createBrowserRouter([
   {
@@ -66,7 +67,8 @@ const router = createBrowserRouter([
         element:<AddMember/>
       },
       {
-        path: "/admin/issues",
+        path: "/admin/complaints",
+        element:<Complaint/>
         
       },
       
